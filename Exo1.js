@@ -1,13 +1,13 @@
 // Reponse numero 1
-let chien = {};
+let dog = {};
 
 
 // Reponse numero 2
-console.log(chien);
+console.log(dog);
 
 
 // Reponse numero 3
-chien = {
+dog = {
     name: 'Rex',
     legs: 'white',
     color: 'Black',
@@ -17,8 +17,13 @@ chien = {
 
 
 // Reponse numero 4
-console.log(chien.name);
-console.log(chien['legs']);
-console.log(chien.color);
-console.log(chien['age']);
-console.log(chien.bark);
+console.log(dog.name);
+console.log(dog['legs']);
+console.log(dog.color);
+console.log(dog['age']);
+console.log(dog.bark);
+
+
+// Reponse numero 5
+console.log(dog.breed = 'Berger allemand');
+console.log(dog.getDogInfo = "Le berger allemand est une race de chiens tirant son nom de son pays d'origine, l'Allemagne, où elle est apparue à la fin du XIXᵉ siècle");
