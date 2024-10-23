@@ -95,3 +95,7 @@ console.log(whoAreMERNStackDeveloper());
  age: 20,
  isLoggedIn: false,
  points: 40});
+
+
+  // Reponse numero 5
+  console.log(Object.keys(users));
