@@ -99,3 +99,7 @@ console.log(whoAreMERNStackDeveloper());
 
   // Reponse numero 5
   console.log(Object.keys(users));
+
+
+  // Reponse numero 6
+  console.log(Object.values(users));
