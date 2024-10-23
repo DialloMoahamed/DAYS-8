@@ -51,7 +51,6 @@ let users = {
     }
   }
 
-  console.log(users);
   function hasmanyskills() {
       let maxlength = 0; 
       for (let i = 0; i <= users.length; i++) {
@@ -62,3 +61,17 @@ let users = {
   
   }
   console.log(hasmanyskills());
+
+ 
+  // Reponse numero 2
+function loggedInUsers() {
+  let table = []
+for (let j = 0; j <= users.length; j++) {
+  if (users[j].isLoggedIn === true) {
+    table.push(users[j])
+     return table.length;
+  } 
+}
+}
+console.log(loggedInUsers());
+
