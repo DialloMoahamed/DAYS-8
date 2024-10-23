@@ -87,3 +87,11 @@ function whoAreMERNStackDeveloper() {
   }
 }
 console.log(whoAreMERNStackDeveloper());
+
+
+ // Reponse numero 4
+ console.log(users.Mohamed = {email: 'mohamedattahirdiallo@gmail.com',
+ skills: ['HTML', 'CSS', 'JavaScript'],
+ age: 20,
+ isLoggedIn: false,
+ points: 40});
