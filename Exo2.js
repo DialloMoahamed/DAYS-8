@@ -75,3 +75,15 @@ for (let j = 0; j <= users.length; j++) {
 }
 console.log(loggedInUsers());
 
+
+// Reponse numero 3
+function whoAreMERNStackDeveloper() {
+  for (let i = 0; i < users.length; i++) {
+    if (users[i].skills.includes('MongoDB', 'Express', 'React', 'Node')) {
+       return users[i];
+    } else {
+      console.log("Il n y apas de devellopeur de la pile MERN");
+    }
+  }
+}
+console.log(whoAreMERNStackDeveloper());
