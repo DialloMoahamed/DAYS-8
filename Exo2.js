@@ -103,3 +103,29 @@ console.log(whoAreMERNStackDeveloper());
 
   // Reponse numero 6
   console.log(Object.values(users));
+
+
+   // Reponse numero 7
+   const countries = {
+    Niger: {
+      capital: 'Niamey',
+      populations: 25000000,
+      languages: ['Haoussa','Zarma','peul (fulfulde)']
+    },
+    Togo: {
+      capital: 'Lomé',
+      populations: 9083528,
+      languages: ["l'éwé","kabiyè"]
+    },
+    Mali: {
+      capital: 'Bamako',
+      populations: 21904983,
+      languages: ['Bambara','peul (fulfulde)','dogon (dogo-so,dogo-kan)']
+    }, 
+    Burkina: {
+      capital: 'Ouagadougou',
+      populations: 25000000,
+      languages: ['le mooré','le fulfuldé (ou peul)','le dioula','le bissa']
+    } 
+  }
+  console.log(countries);
