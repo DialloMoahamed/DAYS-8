@@ -60,12 +60,12 @@ console.log(hasmanyskills());
   
 
  
-//   // Reponse numero 2
-// function loggedInUsers() {
-//   let semi = recup.filter((tem) => tem.isLoggedIn === true)
-//   return semi;
-// }
-// console.log(loggedInUsers());
+  // Reponse numero 2
+function loggedInUsers() {
+  let semi = recup.filter((tem) => tem.isLoggedIn === true)
+  return semi;
+}
+console.log(loggedInUsers());
 
 
 // // Reponse numero 3
