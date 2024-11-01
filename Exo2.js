@@ -68,12 +68,12 @@ function loggedInUsers() {
 console.log(loggedInUsers());
 
 
-// // Reponse numero 3
-// function whoAreMERNStackDeveloper() {
-//   let mern = recup.filter((ser) => ser.skills.includes('MongoDB', 'Express', 'React', 'Node'))
-//   return mern;
-// }
-// console.log(whoAreMERNStackDeveloper());
+// Reponse numero 3
+function whoAreMERNStackDeveloper() {
+  let mern = recup.filter((ser) => ser.skills.includes('MongoDB', 'Express', 'React', 'Node'))
+  return mern;
+}
+console.log(whoAreMERNStackDeveloper());
 
 
 //  // Reponse numero 4
